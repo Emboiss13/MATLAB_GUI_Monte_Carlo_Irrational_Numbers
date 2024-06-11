@@ -2,6 +2,8 @@
 
 This MATLAB App Designer GUI is designed to perform Monte Carlo simulations for estimating irrational numbers, specifically π, √2, and √3, using different geometric shapes. The simulations include calculations for estimating π using needles and squares, √2 using squares, and √3 using hexagons.
 
+Watch video of simulation in my [Youtube Channel](https://www.youtube.com/watch?v=S43QEow82iM&ab_channel=Giuliana)!!
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Key Features](#key-features)
