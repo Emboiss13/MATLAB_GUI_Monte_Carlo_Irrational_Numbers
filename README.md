@@ -16,7 +16,7 @@ Watch video of simulation in my [Youtube Channel](https://www.youtube.com/watch?
 - [Contributing](#contributing)
 
 ## Introduction
-The GUI follows an object-oriented structure based on classes, objects, methods, and functions. It allows users to set various parameters, such as width, length, throws, and the number of parallel planks, to customize the simulations. The calculations are visualized in real-time on the UIAxes component, providing users with an interactive and informative experience.
+The GUI follows an object-oriented structure based on classes, objects, methods, and functions. It allows users to set various parameters, such as width, length, throws, and the number of parallel planks, to customise the simulations. The calculations are visualized in real-time on the UIAxes component, providing users with an interactive and informative experience.
 
 ## Key Features
 ### Visual Representation
@@ -24,10 +24,10 @@ The GUI follows an object-oriented structure based on classes, objects, methods,
 - Different geometric shapes are employed to estimate specific irrational numbers.
 
 ### Code Structure
-These methods essentially utilize the Buffon's Needle algorithm to simulate the procedural steps involved in dropping needles or sketching geometric shapes on a virtual plane. I thought of creating a single external function that could do the plotting of each calculation to maybe call them and avoid a large file but opted for the opposite in the end. My conclusion was to make things very clear by having every function in one place.
+These methods utilise Buffon's Needle algorithm to simulate the procedural steps involved in dropping needles or sketching geometric shapes on a virtual plane. I thought of creating a single external function that could do the plotting of each calculation to maybe call them and avoid a large file, but opted for the opposite in the end. My conclusion was to make things very clear by having every function in one place.
 
-- The code is organized into methods for each type of simulation:
-  - `RunNeedlesPi`: Estimate π using the Buffon's Needle algorithm.
+- The code is organised into methods for each type of simulation:
+  - `RunNeedlesPi`: Estimate π using Buffon's Needle algorithm.
   - `RunSquaresPi`: Estimate π using a square-based simulation.
   - `RunSquareRootTwo`: Estimate √2 using a square-root-two-based simulation.
   - `RunHexagonRootThree`: Estimate √3 using a hexagon-based simulation.
@@ -45,7 +45,7 @@ These methods essentially utilize the Buffon's Needle algorithm to simulate the 
 2. Set simulation parameters using the provided UI components.
 3. Choose the simulation type using the radio buttons.
 4. Check the "RUN" checkbox to initiate the simulation.
-5. Monitor the real-time visualization and view the final estimation.
+5. Monitor the real-time visualisation and view the final estimation.
 
 ## Parameters
 - **Width (comp.Width_input):** Width parameter for the chosen geometric shape.
@@ -53,9 +53,6 @@ These methods essentially utilize the Buffon's Needle algorithm to simulate the 
 - **Throws (comp.Throws_input):** Number of random throws for the Monte Carlo simulation.
 - **Parallel Planks (comp.Planks):** Adjust the number of parallel planks for the simulation.
 
-## Result Visualization
+## Result Visualisation
 - The estimated value of the irrational number is displayed in the GUI.
 - Real-time plots on UIAxes show the progress and results of the simulations.
-
-## Contributing
-Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md).
